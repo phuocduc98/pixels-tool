@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 class="lands-preview">Lands Preview</h1>
+    <div class="filter-box">
+      <div>
+        <label for="land">Land: (1 - 5000)</label>
+        <input type="text" id="land" name="land" maxlength="4" min="1" max="5000" />
+        <button class="go-to-land-btn" onclick="goToLand()">Go To Land</button>
+      </div>
+			<div>
+				<button class="prev" onclick="prev()">prev</button>
+				<button class="next" onclick="next()">next</button>
+			</div>
+    </div>
+
+    <div id="pixel"></div>
+
+		<h2 id="empty" class="empty">No Data</h2>
+    <script src="api.js"></script>
+  </body>
+</html>

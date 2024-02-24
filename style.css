@@ -1,0 +1,38 @@
+body {
+}
+
+.lands-preview {
+  text-align: center;
+  color: orange;
+}
+
+.filter-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-block: 20px;
+}
+
+.iframes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.iframe-box {
+  position: relative;
+}
+
+.land-num {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.empty {
+  text-align: center;
+  color: red;
+}
